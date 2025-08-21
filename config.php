@@ -6,8 +6,8 @@ define('DB_USER', 'root');
 define('DB_PASS', 'root');
 
 // Mailgun configuration
-define('MAILGUN_API_KEY', 'cfe9d84db23eceb32d114ebfd543ca71-97129d72-53c5df77');
-define('MAILGUN_DOMAIN', 'sandboxe0c2b16727984d6f817bbf35a2c6decf.mailgun.org'); //mail.andywahyudi.com
+define('MAILGUN_API_KEY', '');
+define('MAILGUN_DOMAIN', ''); //mail.andywahyudi.com
 define('MAILGUN_FROM_EMAIL', 'andy.wahyudi@arbitersports.com');
 
 // Application settings
