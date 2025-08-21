@@ -23,7 +23,7 @@ $quizzes = $stmt->fetchAll();
 <body>
     <div class="container">
         <h1>Available Quizzes</h1>
-        <p>Choose a quiz to get started:</p>
+        <p></p>
         
         <div class="quiz-grid">
             <?php foreach ($quizzes as $quiz): ?>
