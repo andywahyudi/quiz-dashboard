@@ -10,6 +10,10 @@ class Database {
                 DB_PASS,
                 [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
             );
+
+            // Set timezone to GMT+7 (Asia/Bangkok)
+            $this->connection->exec("SET time_zone = '+07:00'");
+            
         } catch(PDOException $e) {
             die("Connection failed: " . $e->getMessage());
         }
