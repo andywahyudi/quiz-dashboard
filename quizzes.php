@@ -23,7 +23,7 @@ $quizzes = $stmt->fetchAll();
 <body>
     <div class="container">
         <h1>Available Quizzes</h1>
-        <p></p>
+        <p class="dark-content">Hi, <?php echo $name = ucwords(str_replace('.', ' ', strstr($_SESSION['email'], '@', true))); ?></p>
         
         <div class="quiz-grid">
             <?php foreach ($quizzes as $quiz): ?>
