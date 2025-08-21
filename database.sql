@@ -50,7 +50,15 @@ CREATE TABLE approved_emails (
 
 -- Insert sample approved emails (replace with your actual list)
 INSERT INTO approved_emails (email) VALUES 
-('admin@company.com'),
-('manager@company.com'),
-('participant1@company.com'),
-('participant2@company.com');
+('andy.wahyudi@arbitersports.com'),
+('ahwalian.masykur@arbitersports.com'),
+('prayoga.setiawan@arbitersports.com'),
+('rifky.permana@arbitersports.com'),
+('putera.kahfi@arbitersports.com'),
+('junico.chandra@arbitersports.com'),
+('herdian.anjasmara@arbitersports.com'),
+('dwi.winarno@arbitersports.com'),
+('erwin.ardiansyah@arbitersports.com'),
+('fajar.nugroho@arbitersports.com'),
+('harwinda.purnawan@arbitersports.com'),
+('wasi.arnosa@arbitersports.com');
