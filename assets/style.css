@@ -23,6 +23,10 @@ body {
     color: #fff;
 }
 
+.form-container h1 {
+    color: #333;
+}
+
 .dark-content {
     color: #fff;
 }
