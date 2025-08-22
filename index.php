@@ -87,9 +87,9 @@ if ($_POST && isset($_POST['email'])) {
                 <button type="submit" class="btn-primary">Verify Email</button>
             </form>
             
-            <div class="info-note">
+            <!-- <div class="info-note">
                 <p><small>Pre-approved participants will be redirected directly to quizzes. Others will receive a verification code via email.</small></p>
-            </div>
+            </div> -->
         </div>
     </div>
 </body>
